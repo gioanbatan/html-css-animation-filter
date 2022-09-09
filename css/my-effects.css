@@ -82,3 +82,46 @@
     transform: scale(1.3);
 }
 
+/* Exercise #10 */
+.ex-10-icon {
+    animation-name: ex-10-ani;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ex-10-ani {
+    0% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+/* Exercise #11 */
+.ex-11-icon {
+    
+}
+
+.ex-11-icon:hover {
+    animation-name: ex-11-ani;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+
+
+@keyframes ex-11-ani {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    75% {
+        transform: rotate(270deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
