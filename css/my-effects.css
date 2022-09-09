@@ -46,3 +46,39 @@
 .ex-5-square:active {
     transform: scale(0.5);
 }
+
+/* Exercise #6 */
+.ex-6-img:hover {
+    filter:grayscale(1);
+}
+
+/* Exercise #7 */
+.ex-7-img {
+    transition: filter 0.8s;
+}
+
+.ex-7-img:hover {
+    filter: grayscale(1) sepia(0.3);
+}
+
+/* Exercise #8 */
+.ex-8-img {
+    transition: filter 0.5s, border-radius 2s;
+}
+
+.ex-8-img:hover {
+    filter: saturate(0.4) sepia(0.3);
+    border-radius: 50px;
+}
+
+/* Exercise #9 */
+.ex-9-img {
+    transition: filter 0.5s, border-radius 2s, transform 0.5s;
+}
+
+.ex-9-img:hover {
+    filter: saturate(0.4) sepia(0.7);
+    border-radius: 50px;
+    transform: scale(1.3);
+}
+
